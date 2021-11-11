@@ -1,0 +1,12 @@
+{
+    "name": "kgrgreer-dev",
+    "version": "0.1",
+    "type": "module",
+    "dependencies": {
+        "@tomcorp/foam2": "^2.0.2",
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
