@@ -75,7 +75,9 @@ foam.CLASS({
   methods: [
     function reply() {
       this.kevinSay(
-        this.QUOTES[Math.floor(Math.random() * this.QUOTES.length)]
+        /^thanks/i.test(this.input)
+          ? "No problem."
+          : this.QUOTES[Math.floor(Math.random() * this.QUOTES.length)]
       );
     },
     function kevinSay(msg) {
